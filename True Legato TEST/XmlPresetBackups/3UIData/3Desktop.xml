@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="EnvelopeContainer" x="0.0" y="0.0" width="600.0"
+             height="300.0" itemColour="822083583" itemColour2="813727872">
+    <Component type="ScriptButton" id="ShowPreferences" x="490.0" y="5.0" width="100.0"
+               height="20.0" parentComponent="EnvelopeContainer" text="Preferences"/>
+    <Component type="ScriptPanel" id="EnvelopePnl" x="20.0" y="30.0" width="550.0"
+               height="120.0" allowCallbacks="All Callbacks" itemColour2="3305111551"
+               parentComponent="EnvelopeContainer" itemColour="587202559" textColour="3439329279"
+               bgColour="1426063360"/>
+    <Component type="ScriptSlider" id="A" x="20.0" y="230.0" width="110.0" height="50.0"
+               mode="Time" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+               parentComponent="EnvelopeContainer" visible="0"/>
+    <Component type="ScriptSlider" id="AL" x="20.0" y="180.0" width="110.0"
+               height="50.0" mode="Decibel" min="-100.0" max="0.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="-18.0" parentComponent="EnvelopeContainer"
+               visible="0"/>
+    <Component type="ScriptSlider" id="AC" x="130.0" y="180.0" width="110.0"
+               height="50.0" mode="NormalizedPercentage" suffix="%" middlePosition="0.5"
+               parentComponent="EnvelopeContainer" visible="0"/>
+    <Component type="ScriptSlider" id="DC" x="240.0" y="180.0" width="110.0"
+               height="50.0" mode="NormalizedPercentage" suffix="%" middlePosition="0.5"
+               parentComponent="EnvelopeContainer" visible="0"/>
+    <Component type="ScriptSlider" id="H" x="130.0" y="230.0" width="110.0"
+               height="50.0" mode="Time" max="20000.0" stepSize="1.0" suffix=" ms"
+               middlePosition="1000.0" parentComponent="EnvelopeContainer" visible="0"/>
+    <Component type="ScriptSlider" id="D" x="240.0" y="230.0" width="110.0"
+               height="50.0" mode="Time" max="20000.0" stepSize="1.0" suffix=" ms"
+               middlePosition="1000.0" parentComponent="EnvelopeContainer" visible="0"/>
+    <Component type="ScriptSlider" id="S" x="350.0" y="230.0" width="110.0"
+               height="50.0" mode="Decibel" min="-100.0" max="0.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="-18.0" parentComponent="EnvelopeContainer"
+               visible="0"/>
+    <Component type="ScriptSlider" id="R" x="460.0" y="230.0" width="110.0"
+               height="50.0" mode="Time" max="20000.0" stepSize="1.0" suffix=" ms"
+               middlePosition="1000.0" parentComponent="EnvelopeContainer" visible="0"/>
+    <Component type="ScriptPanel" id="PreferencesContainer" x="400.0" y="30.0"
+               width="190.0" height="190.0" parentComponent="EnvelopeContainer"
+               itemColour="4285690482" itemColour2="4278190080" visible="0">
+      <Component type="ScriptLabel" id="ScriptLabel1" x="0.0" y="0.0" width="190.0"
+                 height="20.0" parentComponent="PreferencesContainer" editable="0"
+                 text="What to show"/>
+      <Component type="ScriptSlider" id="BallSize" x="100.0" y="85.0" width="80.0"
+                 height="30.0" parentComponent="PreferencesContainer" style="Horizontal"
+                 max="10.0" min="2.0" stepSize="0.1000000014901161" middlePosition="6.0"
+                 defaultValue="4.0" suffix=" px"/>
+      <Component type="ScriptButton" id="Fill" x="5.0" y="25.0" width="80.0" height="30.0"
+                 parentComponent="PreferencesContainer"/>
+      <Component type="ScriptButton" id="Line" x="5.0" y="55.0" width="80.0" height="30.0"
+                 parentComponent="PreferencesContainer"/>
+      <Component type="ScriptButton" id="Balls" x="5.0" y="85.0" width="80.0"
+                 height="30.0" parentComponent="PreferencesContainer"/>
+      <Component type="ScriptButton" id="Name" x="5.0" y="115.0" width="80.0"
+                 height="30.0" parentComponent="PreferencesContainer"/>
+      <Component type="ScriptButton" id="Value" x="5.0" y="145.0" width="80.0"
+                 height="30.0" parentComponent="PreferencesContainer"/>
+      <Component type="ScriptSlider" id="LineWidth" x="100.0" y="55.0" width="80.0"
+                 height="30.0" parentComponent="PreferencesContainer" style="Horizontal"
+                 max="6.0" min="0.5" stepSize="0.1000000014901161" middlePosition="3.25"
+                 defaultValue="1.0" suffix=" px"/>
+    </Component>
+  </Component>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="0.0" y="320.0"
+             ContentType="MPEPanel" bgColour="0" itemColour="2164260863" itemColour2="452984831"
+             width="610.0" height="40.0" FontSize="13.0" Font="Source Code Pro"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile2" x="220.0" y="400.0"
+             ContentType="FilterDisplay" bgColour="4278190080" itemColour="4294967295"
+             itemColour2="2147483648" Data="{&#10;  &quot;ProcessorId&quot;: &quot;Filter1&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+             width="170.0" height="70.0" FontSize="0.7900000214576721"/>
+  <Component type="ScriptTable" id="Table1" x="220.0" y="470.0" width="170.0"
+             height="70.0" processorId="Modulation&gt;Filter" bgColour="1431326110"
+             itemColour2="4227040131" itemColour="1716586761" customColours="1"/>
+</ContentProperties>

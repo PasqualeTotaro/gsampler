@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="Lyra Long Dyn 2" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="57" LoKey="57" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_A2.wav"
+          Duplicate="0" Normalized="1" NormalizedPeak="1.122018575668335"
+          LoopStart="14863" LoopEnd="276867" LoopEnabled="1"/>
+  <sample Root="47" LoKey="9" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_B1.wav"
+          Duplicate="0" LoopStart="12939" LoopEnd="243931" LoopXFade="0"
+          LoopEnabled="1"/>
+  <sample Root="50" LoKey="50" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_D2.wav"
+          Duplicate="0" LoopEnd="328378" LoopStart="16970" LoopEnabled="1"/>
+  <sample Root="53" LoKey="53" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_F2.wav"
+          Duplicate="0" LoopStart="16235" LoopEnd="303720" LoopEnabled="1"/>
+  <sample Root="55" LoKey="55" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_G2.wav"
+          Duplicate="0" LoopStart="20134" LoopEnd="344671" LoopEnabled="1"/>
+</samplemap>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="long preset" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="/Volumes/8 TB RAID/Projects/Test Round Robin/EXPORT/BC_F_sus_RR3-001.wav"
+          Duplicate="0" LoopXFade="0" LoopStart="207368" SampleStart="0"/>
+</samplemap>

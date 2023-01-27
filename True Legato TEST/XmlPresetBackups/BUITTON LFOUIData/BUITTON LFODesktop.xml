@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="0.0" y="0.9982537738347458"
+             width="50.0" height="50.0" bgColour="2513711666" itemColour2="4288100922"
+             itemColour="4288318602" textColour="4224538455" borderSize="1.0"
+             borderRadius="5.0"/>
+</ContentProperties>
