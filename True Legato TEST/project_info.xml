@@ -17,7 +17,7 @@
   <ExtraDefinitionsIOS value=""/>
   <ExtraDefinitionsLinux value=""/>
   <AppGroupID value=""/>
-  <RedirectSampleFolder value=""/>
+  <RedirectSampleFolder value="/Users/giosuegreco/Documents/GitHub/gsampler/True Legato TEST/Samples"/>
   <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
   <SupportMonoFX value="No"/>
   <EnableMidiInputFX value="No"/>
