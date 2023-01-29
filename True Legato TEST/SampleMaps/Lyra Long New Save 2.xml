@@ -2,22 +2,14 @@
 
 <samplemap ID="Lyra Long New Save 2" RRGroupAmount="1.0" MicPositions=";"
            CrossfadeGamma="1.0">
-  <sample Root="57" LoKey="57" HiKey="127" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_A2.wav"
-          Duplicate="1" Normalized="1" NormalizedPeak="1.122018575668335"
-          LoopStart="14863" LoopEnd="276867" LoopEnabled="1"/>
-  <sample Root="47" LoKey="9" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_B1.wav"
-          Duplicate="1" LoopStart="12939" LoopEnd="243931" LoopXFade="0"
-          LoopEnabled="1"/>
+  <sample Root="57" LoKey="57" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Lyra Hard_A2.wav" Duplicate="0"/>
+  <sample Root="47" LoKey="21" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Lyra Hard_B1.wav" Duplicate="0"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_D2.wav"
-          Duplicate="1" LoopEnd="328378" LoopStart="16970" LoopEnabled="1"/>
+          FileName="{PROJECT_FOLDER}Lyra Hard_D2.wav" Duplicate="0"/>
   <sample Root="53" LoKey="53" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_F2.wav"
-          Duplicate="1" LoopStart="16235" LoopEnd="303720" LoopEnabled="1"/>
+          FileName="{PROJECT_FOLDER}Lyra Hard_F2.wav" Duplicate="0"/>
   <sample Root="55" LoKey="55" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Hard_G2.wav"
-          Duplicate="1" LoopStart="135050" LoopEnd="344671" LoopEnabled="1"
-          LoopXFade="0" SampleStart="126914"/>
+          FileName="{PROJECT_FOLDER}Lyra Hard_G2.wav" Duplicate="0"/>
 </samplemap>

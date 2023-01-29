@@ -3,25 +3,15 @@
 <samplemap CrossfadeGamma="0.9450000000000001" ID="Lyra Long new save" RRGroupAmount="1.0"
            MicPositions=";">
   <sample Root="46" LoKey="46" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Soft_A#1.wav"
-          Duplicate="0" LoopEnabled="1" LoopStart="22546" LoopEnd="301905"
-          LoopXFade="15500"/>
-  <sample Root="58" LoKey="58" HiKey="127" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Soft_A#2.wav"
-          Duplicate="0" LoopEnabled="1" LoopEnd="333407" LoopStart="19477"
-          LoopXFade="15500"/>
+          FileName="{PROJECT_FOLDER}Lyra Soft_A#1.wav" Duplicate="0"/>
+  <sample Root="58" LoKey="58" HiKey="97" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Lyra Soft_A#2.wav" Duplicate="0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Soft_A2.wav"
-          Duplicate="0" LoopEnabled="1" LoopXFade="0"/>
+          FileName="{PROJECT_FOLDER}Lyra Soft_A2.wav" Duplicate="0"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Soft_D2.wav"
-          Duplicate="0" LoopEnabled="1" LoopXFade="0"/>
-  <sample Root="41" LoKey="9" HiKey="45" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Soft_F1.wav"
-          Duplicate="0" LoopEnabled="1" LoopStart="23489" LoopEnd="270127"
-          LoopXFade="15500" GainTable="72...............vO..............vORAgf6....7C...nOlp0e+....7C...zO...f+.........zO...f+.........zO"/>
+          FileName="{PROJECT_FOLDER}Lyra Soft_D2.wav" Duplicate="0"/>
+  <sample Root="41" LoKey="26" HiKey="45" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Lyra Soft_F1.wav" Duplicate="0"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="/Volumes/8 TB RAID/Projects/Sound Design /Lyra Sampilng/EXPORT/Lyra Soft_F2.wav"
-          Duplicate="0" LoopEnabled="1" LoopXFade="15257" LoopEnd="139993"
-          LoopStart="20896"/>
+          FileName="{PROJECT_FOLDER}Lyra Soft_F2.wav" Duplicate="0"/>
 </samplemap>
