@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+True Legato TEST - Dynamic Library in True Legato TEST, no dependencies
